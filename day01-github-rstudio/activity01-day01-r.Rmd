@@ -33,6 +33,22 @@ I also encourage you to use comments (`#`) to help you identify each item (I pro
 
 ```{r simple-calculations}
 # Item 1
+2 + 5 
+
+# integer vector using notation
+int_vect <- c(1:9)
+int_vect
+
+# character vector using slicing index
+char_vect <- letters[1:17]
+char_vect
+
+# get index of the d 
+index_d <- which(char_vect == "d")
+
+# total letters after the d
+num_letters_after_d <- length(char_vect) - index_d
+num_letters_after_d
 
 ```
 
